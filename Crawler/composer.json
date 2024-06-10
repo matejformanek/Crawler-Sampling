@@ -1,0 +1,29 @@
+{
+  "name": "vwm/crawler",
+  "autoload": {
+    "psr-4": {
+      "src\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Matej Formanek",
+      "email": "formama9@fit.cvut.cz"
+    },
+    {
+      "name": "Janis Berberi",
+      "email": "berbejan@fit.cvut.cz"
+    }
+  ],
+  "require": {
+    "symfony/browser-kit": "^6.4",
+    "symfony/http-client": "^6.4",
+    "symfony/css-selector": "^6.4",
+    "ext-curl": "*",
+    "ext-pgsql": "*",
+    "ext-pcntl": "*"
+  },
+  "scripts": {
+    "start": "php crawler.php"
+  }
+}

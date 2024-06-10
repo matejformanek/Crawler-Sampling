@@ -1,0 +1,94 @@
+*{
+    font-family: "JetBrains Mono";
+}
+
+body{
+    background-color: lightblue;
+    background-image: url("Stairs_to_Heaven.webp");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+    padding: 10rem;
+    margin: 0;
+    text-align: center;
+    font-size: 5rem;
+}
+
+h2{
+    font-size: 3rem;
+    margin-bottom: 0;
+}
+
+.selector{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: thick gold solid;
+    box-shadow: 5px 2px 8px gold;
+    border-radius: 1rem;
+    width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 10rem;
+}
+
+form {
+    text-align: left;
+    padding: 2rem;
+}
+
+label{
+    padding: 0.5rem;
+    border: 0.15rem lightblue solid;
+    border-radius: 1rem;
+}
+
+input, select{
+    margin: 1rem 0;
+}
+
+select{
+    font-size: 1rem;
+    border-radius: 1rem;
+}
+
+input[type='submit'],input[type='text']{
+    display: block;
+    margin-left: auto;
+    text-align: center;
+    margin-right: auto;
+    padding: 0.5rem 1rem;
+    font-size: 1.5rem;
+    border-radius: 2rem;
+    border: aqua solid;
+}
+
+input[type='submit']:hover, label:hover, select:hover{
+    cursor: pointer;
+}
+
+#results{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10rem;
+}
+
+table{
+    background-color: white;
+    border: thick gold solid;
+    box-shadow: 5px 2px 8px gold;
+    border-radius: 1rem;
+    width: fit-content;
+}
+
+td{
+    max-width: 20rem;
+
+    padding: 0.5rem;
+    border: 0.15rem lightblue solid;
+}
